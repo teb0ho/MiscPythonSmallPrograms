@@ -1,12 +1,12 @@
 def factorial(x):
   """Calculates the factorial of a given numbera"""
-  sum = 0
+  ans = 0
   for i in range(x, 0, -1): 
-    if sum == 0: 
-      sum += i
+    if ans == 0: 
+      ans += i
     else:
-      sum *= i   
-  return sum
+      ans *= i   
+  return ans
 
 
 
