@@ -6,4 +6,4 @@ def remove_duplicates(x):
       y.append(i)
   return y 
 
-print remove_duplicates([1, 2, 3])
+print sorted(remove_duplicates([1, 2, 3, 2, 6, 8, 10, 5, 4, 3, 2, 8, 10, 9, 9, 8, 2, 7, 1, 0]))
